@@ -1,0 +1,264 @@
+body{
+  margin: 0;
+  font-family: 'Spartan', sans-serif;
+}
+
+h1{
+  margin: 0;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #502050;
+}
+
+h5{
+  margin-bottom: 0;
+}
+
+p{
+  font-weight: 500;
+  font-size: 0.92em;
+  line-height: 1.6;
+}
+
+/* Background-image */
+.bg-imag-mob-top{
+  display: none;
+}
+
+.bg-imag-mob-bottom{
+  display: none;
+}
+
+.bg-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bg-bottom{
+  position: absolute;
+  top: 125px;
+  left: 260px;
+  right: 0;
+  z-index: -1;
+}
+
+/* Grids */
+.grid-container{
+  display: inline-grid;
+  padding: 130px 133px 0;
+  align-content: center;
+  grid-row-gap: 30px;
+}
+
+/* First Row */
+.first-row-grid{
+  display: inline-grid;
+  grid-template-columns: 450px auto;
+  grid-column-gap: 50px;
+}
+
+/* First row Second column */
+
+.fst-row-para{
+  color: #937b92;
+  line-height: 1.7;
+}
+
+.stars-div{
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.icon-para{
+  display: inline-block;
+  color: #502050;
+  padding: 3px 0;
+  font-weight: 700;
+  font-size: 0.83em;
+}
+
+.star-icon-para{
+  background-color: #f7f2f7;
+  border-radius: 10px;
+  margin: 14px 0;
+  width: 420px;
+
+}
+
+.second-tab{
+  margin-left: 65px;
+}
+
+.third-tab{
+  margin-left: 140px;
+}
+
+/* Second row */
+
+.second-row-grid{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 30px;
+}
+
+.testimonials{
+  background: #502050;
+  padding: 15px 35px;
+  color: #ffffff;
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+.sec-row-fst-colm{
+  margin-bottom: 40px;
+}
+
+.sec-row-sec-colm{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sec-row-thir-colm{
+  margin-top: 40px;
+}
+
+.profile-img-name{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 25px;
+}
+
+.pro-img{
+  margin: auto;
+}
+
+.test-img{
+  border-radius: 50%;
+  width: 40px;
+}
+
+.para-name{
+  margin-top: 0;
+  color: #ee68a4;
+  font-weight: 100;
+}
+
+.para-testimonials{
+  font-weight: 400;
+  font-size: 0.8em;
+  line-height: 1.7;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.attribution a {
+  color: #3e52a3;
+  color: hsl(228, 45%, 44%);
+}
+
+/* To have responsiveness of website when screen size is 375px or less */
+
+@media (max-width :375px)  {
+
+  body{
+   background-color: #ffffff;
+   text-align: center;
+ }
+
+ h1{
+   font-size: 2em;
+ }
+
+/* Background-image */
+.bg-imag-desk-top{
+  display: none;
+}
+
+.bg-imag-mob-top{
+  display: block;
+}
+
+.bg-imag-desk-bottom{
+  display: none;
+}
+
+.bg-imag-mob-bottom{
+  display: block;
+}
+
+.bg-bottom{
+  position: absolute;
+  top: 965px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.main-container{
+  background-image: url("images/bg-pattern-top-mobile.svg");
+}
+
+ .grid-container{
+   display: block;
+   width: 358px;
+   padding: 130px 10px;
+ }
+
+  .testimonials{
+    width: 260px;
+    height: 210px;
+    margin: 30px auto;
+    text-align: left;
+  }
+
+  .stars-div{
+    display: block;
+    margin: 0;
+    padding: 15px 0 0;
+  }
+
+  .icon-para{
+    display: block;
+    text-align: center;
+    padding: 0 0 15px;
+  }
+
+  .second-tab{
+    margin: 14px 0;
+  }
+
+  .third-tab{
+    margin: 14px 0;
+  }
+
+  .second-row-grid{
+    display: block;
+  }
+
+  .first-row-grid{
+    display: block;
+  }
+
+  .star-icon-para{
+    width: 360px;
+  }
+
+}
+
+/* Ref
+
+-Very Dark Magenta: hsl(300, 43%, 22%)  	#502050
+-Soft Pink: hsl(333, 80%, 67%)  	#ee68a4
+-Dark Grayish Magenta: hsl(303, 10%, 53%)  	#937b92
+-Light Grayish Magenta: hsl(300, 24%, 96%)  	#f7f2f7
+-White: hsl(0, 0%, 100%)   #ffffff
+-color: hsl(228, 45%, 44%)   	#3e52a3
+
+
+font-family: 'Spartan', sans-serif;
+*/
