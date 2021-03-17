@@ -38,7 +38,7 @@ p{
 .bg-bottom{
   position: absolute;
   top: 125px;
-  left: 260px;
+  left: auto;
   right: 0;
   z-index: -1;
 }
@@ -59,6 +59,10 @@ p{
 }
 
 /* First row Second column */
+
+.first-row-sec-colm{
+  margin: 0 0 0 auto; 
+}
 
 .fst-row-para{
   color: #937b92;
